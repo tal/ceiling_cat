@@ -1,0 +1,9 @@
+{
+    "name": "ceiling_cat"
+  , "version": "0.0.1"
+  , "private": true
+  , "dependencies": {
+      "express": "2.4.7"
+    , "redis": ">= 0.5.11"
+  }
+}
