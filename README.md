@@ -10,7 +10,7 @@ everyone who's there.
 It currently uses polling every 15 seconds to see who's on there. Ideally I'd
 like to use something like [socket.io](http://socket.io) to detect the
 presence but I didn't want to deal with issues of passing it though a reverse
-proxy or load balencer like [zeus](http://zeus.com).
+proxy or load balencer like [zeus](http://zeus.com) or nginx.
 
 ## Usage
 
