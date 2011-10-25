@@ -1,6 +1,10 @@
 (function(scope){
   var __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; };
 
+
+  /**
+   * See Readme.md for usage
+   **/
   scope.CeilingCat = (function() {
     var TTL = 15;
 
