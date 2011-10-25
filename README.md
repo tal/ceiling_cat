@@ -23,7 +23,7 @@ You can optionally set extra info to have stored whith the user. As an
 example you can pass the last time the user interacted with the page.
 
     cat.info = function() {
-      return CeilingCat.lastActionAt.getDate();
+      return CeilingCat.lastActionAt.getTime();
     };
 
 Finally you have to set a callback which will report back who's on the page every
